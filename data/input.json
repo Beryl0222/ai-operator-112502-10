@@ -1,0 +1,32 @@
+{
+  "batch_id": "b4",
+  "indices": [
+    0,
+    2,
+    2,
+    4,
+    -1
+  ],
+  "values": [
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0
+  ],
+  "output_size": 5,
+  "views": [
+    {
+      "name": "main",
+      "offset": 0,
+      "length": 5
+    },
+    {
+      "name": "slice",
+      "offset": 1,
+      "length": 3
+    }
+  ],
+  "aggregate": "sum",
+  "invalid_policy": "reject"
+}

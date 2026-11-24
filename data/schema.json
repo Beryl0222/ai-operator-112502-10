@@ -1,0 +1,7 @@
+{
+  "name": "scatter_views",
+  "version": "1",
+  "description": "共享视图、重复/越界索引和聚合约定。",
+  "input_file": "data/input.json",
+  "implementation": "由项目使用者根据业务契约提供"
+}
