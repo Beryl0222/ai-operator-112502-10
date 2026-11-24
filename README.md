@@ -7,7 +7,7 @@
 项目使用 Python 3.11 或更高版本，仅依赖标准库。运行资料检查：
 
 ```bash
-python -m unittest discover -v
+python -m unittest discover -s tests -v
 ```
 
 ## 资料
