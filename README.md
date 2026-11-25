@@ -4,10 +4,13 @@
 
 ## 环境
 
-项目使用 Python 3.11 或更高版本，仅依赖标准库。运行资料检查：
+项目运行和资料检查仅依赖 Python 标准库。运行测试与打包验证前安装锁定的测试工具：
 
 ```bash
+python -m pip install -e .
+python -m pip install -r requirements-test.txt
 python -m unittest discover -s tests -v
+python -m build --wheel --no-isolation
 ```
 
 ## 资料
